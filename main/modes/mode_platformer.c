@@ -132,13 +132,13 @@ void platformerMainLoop(int64_t elapsedUs)
         scrollTileMap(&(platformer->tilemap),1,0);
     }
 
-/*
+
     if(platformer->btnState & UP){
         scrollTileMap(&(platformer->tilemap),0,-1);
     } else if(platformer->btnState & DOWN){
         scrollTileMap(&(platformer->tilemap),0,1);
     }
-*/
+
 
     drawTileMap(platformer->disp, &(platformer->tilemap));
 
